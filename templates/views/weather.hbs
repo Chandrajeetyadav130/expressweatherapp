@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {{>linkheader}}
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-12 col-sm-12 mx-auto">
+{{!-- navbar    --}}
+
+     {{>navbar}}
+   
+    
+        </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" main_div col-md-12 col-12 mx-auto">
+                    
+                    {{!-- form div --}}
+                    <div class="form_div">
+                        <form class="form1">
+                           <input type="text" id="cityname" placeholder="Enter your city" autocomplete="off">
+                            <input type="submit" value="search" id="submitbtn">
+                         </form>   
+                    </div>
+                         {{!-- tempcontent div --}}
+                         <div class="display_content">
+                             <div class="top_layer">
+                                <p id="day">tue</p>
+                                <p id="date">13 oct</p>
+                            </div>
+                            <div class="content_layer">
+                                <p id="city_name">Get output  here</p>
+                                {{!-- time div --}}
+                                <div class="temprature hide_ele">
+                                    
+                                       <p><span class="span_tem">0</span><sup>o</sup>C</p>
+                                </div>
+                               
+
+                            </div>
+                         </div>
+                  
+                   </div>
+                </div>
+
+            </div>
+
+        </div>
+
+       
+       
+
+    </div>
+     {{!-- footer --}}
+    {{>footer}}
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

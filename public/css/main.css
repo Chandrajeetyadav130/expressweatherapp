@@ -1,0 +1,104 @@
+.views_div{
+    background-color: aqua;
+}
+.nav1{
+    margin-left: auto;
+}
+.info{
+display: flex;
+flex-direction: column;
+}
+body{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+.footer1{
+    width:100%;
+    margin-top: auto;
+    background-color: black;
+}
+.footer1 p{
+    padding-left: 400px;
+}
+.errfig img{
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
+}
+.errbtn button{
+    width:130px;
+    border-radius: 10px;
+    border-style: none;
+    background-color:cadetblue;
+}
+.form1{
+    width: 100%;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    background-color: cyan;
+   
+}
+ #cityname{
+    width:50%;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 8px;
+    border-style: none;
+}
+#submitbtn{
+    margin: 10px;
+    width:100px;
+    border-radius: 8px;
+    border-style: none;
+
+}
+/* temp_content */
+
+.display_content{
+    width:100%;
+    height: 60vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.content_layer{
+    width:50%;
+    height: 30vh;
+    background-color: deeppink;
+    padding-left: 20px;
+    
+}
+.content_layer .temprature{
+    width:97%;
+    height: 20vh;
+    /* background-color:aqua; */
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.top_layer{
+    width: 50%;
+    height: 10vh;
+    display:flex;
+    justify-content: space-around;
+    background-color: darkorange;
+    margin: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

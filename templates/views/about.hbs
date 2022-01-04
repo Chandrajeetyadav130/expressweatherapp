@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {{>linkheader}}
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-12 col-sm-12 mx-auto">
+{{!-- navbar    --}}
+
+     {{>navbar}}
+   
+    
+        </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 col-12">
+                   <div class="row">
+                       {{!-- left content --}}
+                       <div class="col-md-6 d-flex justify-content-center align-items-center col-12 d-flex flex-column">
+                           <h1>Welcome to weather App</h1>
+                           <p>Get the latest weather info of your city</p>
+                             {{!-- <button>Check Now</button> --}}
+                           
+
+                        </div>
+                       {{!-- left content --}}
+                      <div class="col-md-6 col-12">
+                         <figure>
+                             <img src="images/weather3.jpeg" alt="imgs">  
+                         </figure>
+                                 
+                      </div>
+                     
+     
+ 
+                 
+                       </div>
+
+                   </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        {{!-- footer --}}
+       {{>footer}}
+
+    </div>
+    
+   
+    
+</body>
+</html>

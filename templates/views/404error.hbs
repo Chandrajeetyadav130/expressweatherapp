@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {{>linkheader}}
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-12 col-sm-12 mx-auto">
+{{!-- navbar    --}}
+
+     {{>navbar}}
+   
+    
+        </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" errbtn col-md-12 col-12 d-flex flex-column justify-content-center align-items-center">
+                   <figure class="errfig">
+                       <img src="images/404error.jpeg" alt="img"> 
+                       <h1>Welcome to weatherInformation</h1>
+                       <h1>{{error}}</h1>
+                         
+                   </figure>
+                 <button>Go back</button>
+                       </div>
+                       
+
+                   </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        {{!-- footer --}}
+       
+      {{>footer}}
+    </div>
+    
+   
+    
+</body>
+</html>
