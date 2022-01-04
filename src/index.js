@@ -2,6 +2,7 @@ const express=require("express");
 const app=express();
 const path=require("path");
 const hbs=require("hbs");
+const port=process.env.PORT || 8000;
 // path
 const templatespath=path.join(__dirname,"../templates/views");
 const partials=path.join(__dirname,"../templates/partials");
@@ -25,6 +26,6 @@ app.get("*",(req,res)=>{
         error:"Opps! Page Not Found",
     });
 });
-app.listen(8000,()=>{
-    console.log("listen to port no 8000");
+app.listen(port,()=>{
+    console.log(`port number ${port}`);
 });
